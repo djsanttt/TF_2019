@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS ControlStock;
+
+USE ControlStock;
+
+CREATE TABLE IF NOT EXISTS usuario (
+	id INT(2) NOT NULL AUTO_INCREMENT,
+	nombre VARCHAR(50) NOT NULL,
+	pass char(40),
+	PRIMARY KEY (id));
+
